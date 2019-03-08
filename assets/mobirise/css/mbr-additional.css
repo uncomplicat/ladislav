@@ -1298,7 +1298,7 @@ body {
   }
 }
 .cid-rk3NtbjIM9 {
-  background-image: url("../../../assets/images/6b-2000x1102.jpg");
+  background-image: url("../../../assets/images/6b-1-2000x1102.jpg");
 }
 .cid-rk3NtbjIM9 h1 {
   color: #616161;
@@ -2178,77 +2178,26 @@ body {
 .cid-rk8D5qpgfh .mbr-section-title {
   color: #ffffff;
 }
-.cid-rk8E1ptSfN {
+.cid-rk8PYCvOSF {
   padding-top: 90px;
   padding-bottom: 90px;
   background-color: #ffffff;
 }
-.cid-rk8E1ptSfN .mbr-iconfont {
-  font-size: 48px;
-  padding-right: 1rem;
+.cid-rk8PYCvOSF .title {
+  margin-bottom: 2rem;
 }
-.cid-rk8E1ptSfN .icon-block {
-  margin-bottom: 10px;
-}
-.cid-rk8E1ptSfN .icon-block .icon-block__icon {
-  display: inline-block;
-  vertical-align: middle;
-}
-.cid-rk8E1ptSfN .icon-block .icon-block__title {
-  display: inline-block;
-  vertical-align: middle;
-  margin-bottom: 0;
-  line-height: 1;
-  font-style: italic;
-}
-.cid-rk8E1ptSfN .mbr-text {
+.cid-rk8PYCvOSF .mbr-section-subtitle {
   color: #767676;
 }
-.cid-rk8E1ptSfN textarea.form-control {
-  min-height: 100px;
-}
-.cid-rk8E1ptSfN a:not([href]):not([tabindex]) {
+.cid-rk8PYCvOSF a:not([href]):not([tabindex]) {
   color: #fff;
   border-radius: 3px;
 }
-.cid-rk8E1ptSfN .google-map {
-  height: 24rem;
-  position: relative;
+.cid-rk8PYCvOSF a.btn-white:not([href]):not([tabindex]) {
+  color: #333;
 }
-.cid-rk8E1ptSfN .google-map iframe {
-  height: 100%;
-  width: 100%;
-}
-.cid-rk8E1ptSfN .google-map [data-state-details] {
-  color: #6b6763;
-  font-family: Montserrat;
-  height: 1.5em;
-  margin-top: -0.75em;
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
-  position: absolute;
-  text-align: center;
-  top: 50%;
-  width: 100%;
-}
-.cid-rk8E1ptSfN .google-map[data-state] {
-  background: #e9e5dc;
-}
-.cid-rk8E1ptSfN .google-map[data-state="loading"] [data-state-details] {
-  display: none;
-}
-@media (max-width: 767px) {
-  .cid-rk8E1ptSfN h2 {
-    padding-top: 2rem;
-  }
-}
-@media (min-width: 768px) {
-  .cid-rk8E1ptSfN .container > .row > .col-md-6:first-child {
-    padding-right: 30px;
-  }
-  .cid-rk8E1ptSfN .container > .row > .col-md-6:last-child {
-    padding-left: 30px;
-  }
+.cid-rk8PYCvOSF textarea.form-control {
+  min-height: 188px;
 }
 .cid-rk8GqHqgQV {
   padding-top: 30px;
