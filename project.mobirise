@@ -1,6 +1,6 @@
 {
   "settings": {
-    "name": "LADISLAV PAZDERA",
+    "name": "LADISLAV PAZDERA-clone",
     "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
@@ -55,9 +55,9 @@
       "settings": {
         "main": true,
         "title": "Ladislav Pazdera • Guitarist & Composer",
-        "meta_descr": "Ladislav Pazdera is one of the finest fingerstyle, classical and fusion guitarists in Czech Republic.",
+        "meta_descr": "Ladislav Pazdera is one of the finest fingerstyle, classical and fusion guitarists from Czech Republic.",
         "header_custom": "",
-        "footer_custom": "<script>\n\n   $(function() {\n     $(\"audio + a\").click(function(e) {\n       e.preventDefault();\n       var song = $(this).prev('audio').get(0);\n       \n       if (song.paused) {\n         song.play();\n//         $(this).text(\"❙ ❙\");\n         $(this).addClass(\"pause\");\n         $(this).removeClass(\"play\");\n       } \n       else {\n         song.pause();\n//         $(this).text(\"▶\");\n         $(this).addClass(\"play\");\n         $(this).removeClass(\"pause\");\n       }\n     });\n   });\n\n</script>",
+        "footer_custom": "<script>\n   $(function() {\n     $(\"audio + a\").click(function(e) {\n       e.preventDefault();\n       var song = $(this).prev('audio').get(0);\n       \n       if (song.paused) {\n         song.play();\n//         $(this).text(\"❙ ❙\");\n         $(this).addClass(\"pause\");\n         $(this).removeClass(\"play\");\n       } \n       else {\n         song.pause();\n//         $(this).text(\"▶\");\n         $(this).addClass(\"play\");\n         $(this).removeClass(\"pause\");\n       }\n     });\n   });\n\n</script>",
         "html_before": ""
       },
       "components": [
