@@ -25,6 +25,33 @@
   
 </head>
 <body>
+
+<!-- Google Analytics -->
+<script>
+   $(function() {
+     $("audio + a").click(function(e) {
+       e.preventDefault();
+       var song = $(this).prev('audio').get(0);
+       
+       if (song.paused) {
+         song.play();
+//         $(this).text("❙ ❙");
+         $(this).addClass("pause");
+         $(this).removeClass("play");
+       } 
+       else {
+         song.pause();
+//         $(this).text("▶");
+         $(this).addClass("play");
+         $(this).removeClass("pause");
+       }
+     });
+   });
+
+</script>
+<!-- /Google Analytics -->
+
+
   <section class="menu cid-rk3MW2CqNC" once="menu" id="menu1-0">
 
     
@@ -242,7 +269,7 @@
     </div>
 </section>
 
-<section class="step3 cid-rkaSfv18F4" id="step3-3l">
+<section class="step3 cid-rkaZ7R0P3T" id="step3-3l">
 
     
 
@@ -403,7 +430,7 @@
         <div class="row py-2 justify-content-center">
             <div class="col-12 col-lg-6  col-md-8 " data-form-type="formoid">
                 <!---Formbuilder Form--->
-                <form action="https://mobirise.com/" method="POST" class="mbr-form form-with-styler" data-form-title="Mobirise Form"><input type="hidden" name="email" data-form-email="true" value="1ddnnXRYLtv770EWocYQa0oHdy/w26D9DaSBenrQG7rqs+n5qex3ouId5hcSfXPoGd+CtT0V+Vofw70/mArWtdj5h4aTz8kvd0AOZhhEQZ2+xgpspcjfSyWev4gPsZuM">
+                <form action="https://mobirise.com/" method="POST" class="mbr-form form-with-styler" data-form-title="Mobirise Form"><input type="hidden" name="email" data-form-email="true" value="0VfXOMpqeuqZmwbiCc6Rfv3nqItULXUATX/AAA/zfjssHoifzN63wzhVC1fLYVg1nhZAsCySykwunfeBfWv0OJZeO/N0kRScWDKPjE8AbF4vzM7KotsKqXiHDVb5Yo2B">
                     <div class="row">
                         <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Thanks for filling out the form!</div>
                         <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12">
@@ -529,7 +556,7 @@
         <div class="row justify-content-center">
             <div class="media-container-column col-lg-8" data-form-type="formoid">
                 <!---Formbuilder Form--->
-                <form action="https://mobirise.com/" method="POST" class="mbr-form form-with-styler" data-form-title="Mobirise Form"><input type="hidden" name="email" data-form-email="true" value="QYc/QwPN/BWQ2WG+8tsj2UDw1dSJv1kHz+fSpHUeYk6a1Sv0FhZhAU/5hrONk61jHzDGQNgmPHilPHiNxvP1z65ButBNWFxk9Qss3ICfkoyJU74ILWP0zUqiqzDH6U8O">
+                <form action="https://mobirise.com/" method="POST" class="mbr-form form-with-styler" data-form-title="Mobirise Form"><input type="hidden" name="email" data-form-email="true" value="wB5vPTBYqZvNm9+afqe6GApw9ZQ/AYIloZqVliQel579XUki/DCs/N+DqRntPckL+C52EV9u18RFfUXiW41Y/rw+S6bJ0Gv7Hp25NWzCHsi3qPJl7VJKddDEuWBC1IF4">
                     <div class="row row-sm-offset">
                         <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Thanks for filling out the form!</div>
                         <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12">
@@ -652,6 +679,7 @@
   <script src="assets/formoid/formoid.min.js"></script>
   
   <script>
+
    $(function() {
      $("audio + a").click(function(e) {
        e.preventDefault();
