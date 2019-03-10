@@ -168,23 +168,23 @@ body {
 }
 .btn-secondary,
 .btn-secondary:active {
-  background-color: #fffcd6 !important;
-  border-color: #fffcd6 !important;
-  color: #d6c600 !important;
+  background-color: #161616 !important;
+  border-color: #161616 !important;
+  color: #ffffff !important;
 }
 .btn-secondary:hover,
 .btn-secondary:focus,
 .btn-secondary.focus,
 .btn-secondary.active {
-  color: #d6c600 !important;
-  background-color: #fff68a !important;
-  border-color: #fff68a !important;
+  color: #ffffff !important;
+  background-color: #000000 !important;
+  border-color: #000000 !important;
 }
 .btn-secondary.disabled,
 .btn-secondary:disabled {
-  color: #d6c600 !important;
-  background-color: #fff68a !important;
-  border-color: #fff68a !important;
+  color: #ffffff !important;
+  background-color: #000000 !important;
+  border-color: #000000 !important;
 }
 .btn-info,
 .btn-info:active {
@@ -332,22 +332,22 @@ body {
 .btn-secondary-outline,
 .btn-secondary-outline:active {
   background: none;
-  border-color: #fff570;
-  color: #fff570;
+  border-color: #000000;
+  color: #000000;
 }
 .btn-secondary-outline:hover,
 .btn-secondary-outline:focus,
 .btn-secondary-outline.focus,
 .btn-secondary-outline.active {
-  color: #d6c600;
-  background-color: #fffcd6;
-  border-color: #fffcd6;
+  color: #ffffff;
+  background-color: #161616;
+  border-color: #161616;
 }
 .btn-secondary-outline.disabled,
 .btn-secondary-outline:disabled {
-  color: #d6c600 !important;
-  background-color: #fffcd6 !important;
-  border-color: #fffcd6 !important;
+  color: #ffffff !important;
+  background-color: #161616 !important;
+  border-color: #161616 !important;
 }
 .btn-info-outline,
 .btn-info-outline:active {
@@ -467,7 +467,7 @@ body {
   color: #090909 !important;
 }
 .text-secondary {
-  color: #fffcd6 !important;
+  color: #161616 !important;
 }
 .text-success {
   color: #767676 !important;
@@ -493,7 +493,7 @@ a.text-primary:focus {
 }
 a.text-secondary:hover,
 a.text-secondary:focus {
-  color: #fff570 !important;
+  color: #000000 !important;
 }
 a.text-success:hover,
 a.text-success:focus {
@@ -2211,7 +2211,7 @@ body {
   font-size: 13px;
 }
 .cid-rk8GqHqgQV .icon-transition span:hover {
-  background-color: #fffcd6;
+  background-color: #161616;
 }
 .cid-rk8GqHqgQV .mbr-text {
   color: #cccccc;
