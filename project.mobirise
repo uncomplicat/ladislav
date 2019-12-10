@@ -39,16 +39,28 @@
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.9.4",
-    "siteFonts": [],
+    "siteFonts": [
+      {
+        "css": "'Rubik', sans-serif",
+        "name": "Rubik",
+        "url": "https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i"
+      }
+    ],
     "uniqCompNum": 139,
-    "versionPublish": "4.11.2",
+    "versionPublish": "4.11.6",
     "screenshot": "screenshot.png",
-    "favicon": "",
-    "noImageResize": "",
-    "siteUrl": "undefined",
-    "cookiesAlert": "",
-    "gdpr": "",
-    "google-analytics": "<script>\r\n   $(function() {\r\n     $(\"audio + a\").click(function(e) {\r\n       e.preventDefault();\r\n       var song = $(this).prev('audio').get(0);\r\n       \r\n       if (song.paused) {\r\n         song.play();\r\n//         $(this).text(\"❙ ❙\");\r\n         $(this).addClass(\"pause\");\r\n         $(this).removeClass(\"play\");\r\n       } \r\n       else {\r\n         song.pause();\r\n//         $(this).text(\"▶\");\r\n         $(this).addClass(\"play\");\r\n         $(this).removeClass(\"pause\");\r\n       }\r\n     });\r\n   });\r\n\r\n</script>\r\n\r\n<script charset=\"utf-8\" src=\"https://widget.bandsintown.com/main.min.js\"></script>"
+    "favicon": false,
+    "noImageResize": false,
+    "siteUrl": "http://lpazdera.com",
+    "cookiesAlert": false,
+    "gdpr": false,
+    "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-154132998-1\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-154132998-1');\n</script>",
+    "": "on",
+    "robotsSwitcher": false,
+    "sitemapSwitcher": true,
+    "sitemapSwitcherAuto": true,
+    "pwa-switcher": false,
+    "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n"
   },
   "pages": {
     "index.html": {
@@ -57,7 +69,7 @@
         "title": "Ladislav Pazdera • Guitarist & Composer",
         "meta_descr": "Ladislav Pazdera is one of the finest worldmusic and fingerstyle guitarists from Czech Republic.",
         "header_custom": "",
-        "footer_custom": "<script type:\"text/javascript>\n\n   $(function() {\n     $(\"audio + a\").click(function(e) {\n       e.preventDefault();\n       var song = $(this).prev('audio').get(0);\n       \n       if (song.paused) {\n         song.play();\n//         $(this).text(\"❙ ❙\");\n         $(this).addClass(\"pause\");\n         $(this).removeClass(\"play\");\n       } \n       else {\n         song.pause();\n//         $(this).text(\"▶\");\n         $(this).addClass(\"play\");\n         $(this).removeClass(\"pause\");\n       }\n     });\n   });\n\n</script>",
+        "footer_custom": "<script type:\"text/javascript>\n\n   $(function() {\n     $(\"audio + a\").click(function(e) {\n       e.preventDefault();\n       var song = $(this).prev('audio').get(0);\n       \n       if (song.paused) {\n         song.play();\n//         $(this).text(\"❙ ❙\");\n         $(this).addClass(\"pause\");\n         $(this).removeClass(\"play\");\n       } \n       else {\n         song.pause();\n//         $(this).text(\"▶\");\n         $(this).addClass(\"play\");\n         $(this).removeClass(\"pause\");\n       }\n     });\n   });\n\n</script>\n\n\n<script>\n   $(function() {\n     $(\"audio + a\").click(function(e) {\n       e.preventDefault();\n       var song = $(this).prev('audio').get(0);\n       \n       if (song.paused) {\n         song.play();\n//         $(this).text(\"❙ ❙\");\n         $(this).addClass(\"pause\");\n         $(this).removeClass(\"play\");\n       } \n       else {\n         song.pause();\n//         $(this).text(\"▶\");\n         $(this).addClass(\"play\");\n         $(this).removeClass(\"pause\");\n       }\n     });\n   });\n\n</script>\n\n<script charset=\"utf-8\" src=\"https://widget.bandsintown.com/main.min.js\"></script>",
         "html_before": ""
       },
       "components": [
